@@ -1,0 +1,28 @@
+{
+"noi_dung":"Bảo vệ nhà giữ xe clock A không sắp xếp xe",
+"mo_ta":"chưa có mô tả",
+"vi_tri":"F02 01",
+"thoi_gian_xay_ra":"2020-03-19 ",
+"thoi_gian_tao_pa":"2020-03-20 ",
+"tinh_trang_pa":[
+    "chưa trả lời",
+    "phản ánh ảo",
+    "đã trả lời"
+    ],
+"tinh_trang_xu_ly":"phản ánh ảo",
+"chu_de":"vệ sinh",
+"thoi_gian_trl":"2020-03-22",
+"nguoi_tra_loi":"Quyên",
+"noi_dung_tra_loi":"Trong quá trình kiểm tra chúng tôi đã xác thực và xử lý  vi phạm ",
+"ma_phan_anh":"123",
+"hinh_anh":[
+    {
+    "id": 1,
+     "url":"2"
+    },
+    {
+        "id": 2,
+         "url":"2"
+        }
+]
+}

@@ -1,0 +1,175 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.demo_trangchu"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:8:5-67
+14-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:9:5-78
+15-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->[:image_picker] /Users/QuocHuy/Downloads/demo_trangchu 2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+16-->[:image_picker] /Users/QuocHuy/Downloads/demo_trangchu 2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->[:image_picker] /Users/QuocHuy/Downloads/demo_trangchu 2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+17-->[:image_picker] /Users/QuocHuy/Downloads/demo_trangchu 2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+18
+19    <application
+19-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:10:5-31:19
+20        android:name="io.flutter.app.FlutterApplication"
+20-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:11:9-57
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.0.2] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/9ddce881a30c84c535d2fdc5d3d2efb1/core-1.0.2/AndroidManifest.xml:22:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:13:9-43
+24        android:label="demo_trangchu" >
+24-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:12:9-38
+25        <activity
+25-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:14:9-25:20
+26            android:name="com.example.demo_trangchu.MainActivity"
+26-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:15:13-41
+27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+27-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:18:13-163
+28            android:hardwareAccelerated="true"
+28-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:19:13-47
+29            android:launchMode="singleTop"
+29-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:16:13-43
+30            android:theme="@style/LaunchTheme"
+30-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:17:13-47
+31            android:windowSoftInputMode="adjustResize" >
+31-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:20:13-55
+32            <intent-filter>
+32-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:21:13-24:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:22:17-68
+33-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:22:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:23:17-76
+35-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:23:27-74
+36            </intent-filter>
+37        </activity>
+38        <!--
+39             Don't delete the meta-data below.
+40             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+41        -->
+42        <meta-data
+42-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:28:9-30:33
+43            android:name="flutterEmbedding"
+43-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:29:13-44
+44            android:value="2" />
+44-->/Users/QuocHuy/Downloads/demo_trangchu 2/android/app/src/main/AndroidManifest.xml:30:13-30
+45
+46        <service
+46-->[:firebase_storage] /Users/QuocHuy/Downloads/demo_trangchu 2/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+47            android:name="com.google.firebase.components.ComponentDiscoveryService"
+47-->[:firebase_storage] /Users/QuocHuy/Downloads/demo_trangchu 2/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+48            android:directBootAware="true"
+48-->[com.google.firebase:firebase-common:19.3.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/623dddb3d3d28a5f2fff1cd79c846763/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+49            android:exported="false" >
+49-->[com.google.firebase:firebase-auth:19.2.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/321f7083842a97d76ab06d8e5183ba10/firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
+50            <meta-data
+50-->[:firebase_storage] /Users/QuocHuy/Downloads/demo_trangchu 2/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+51                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+51-->[:firebase_storage] /Users/QuocHuy/Downloads/demo_trangchu 2/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[:firebase_storage] /Users/QuocHuy/Downloads/demo_trangchu 2/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+53            <meta-data
+53-->[:firebase_auth] /Users/QuocHuy/Downloads/demo_trangchu 2/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+54                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+54-->[:firebase_auth] /Users/QuocHuy/Downloads/demo_trangchu 2/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[:firebase_auth] /Users/QuocHuy/Downloads/demo_trangchu 2/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+56            <meta-data
+56-->[:firebase_core] /Users/QuocHuy/Downloads/demo_trangchu 2/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+57                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+57-->[:firebase_core] /Users/QuocHuy/Downloads/demo_trangchu 2/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[:firebase_core] /Users/QuocHuy/Downloads/demo_trangchu 2/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+59            <meta-data
+59-->[com.google.firebase:firebase-auth:19.2.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/321f7083842a97d76ab06d8e5183ba10/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+60                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+60-->[com.google.firebase:firebase-auth:19.2.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/321f7083842a97d76ab06d8e5183ba10/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.firebase:firebase-auth:19.2.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/321f7083842a97d76ab06d8e5183ba10/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+62            <meta-data
+62-->[com.google.firebase:firebase-storage:17.0.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/283c559a627a1df07a2b82baa3dbfff2/jetified-firebase-storage-17.0.0/AndroidManifest.xml:31:13-33:85
+63                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+63-->[com.google.firebase:firebase-storage:17.0.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/283c559a627a1df07a2b82baa3dbfff2/jetified-firebase-storage-17.0.0/AndroidManifest.xml:32:17-107
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-storage:17.0.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/283c559a627a1df07a2b82baa3dbfff2/jetified-firebase-storage-17.0.0/AndroidManifest.xml:33:17-82
+65        </service>
+66
+67        <provider
+67-->[:image_picker] /Users/QuocHuy/Downloads/demo_trangchu 2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+68            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+68-->[:image_picker] /Users/QuocHuy/Downloads/demo_trangchu 2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+69            android:authorities="com.example.demo_trangchu.flutter.image_provider"
+69-->[:image_picker] /Users/QuocHuy/Downloads/demo_trangchu 2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+70            android:exported="false"
+70-->[:image_picker] /Users/QuocHuy/Downloads/demo_trangchu 2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+71            android:grantUriPermissions="true" >
+71-->[:image_picker] /Users/QuocHuy/Downloads/demo_trangchu 2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+72            <meta-data
+72-->[:image_picker] /Users/QuocHuy/Downloads/demo_trangchu 2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+73                android:name="android.support.FILE_PROVIDER_PATHS"
+73-->[:image_picker] /Users/QuocHuy/Downloads/demo_trangchu 2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+74                android:resource="@xml/flutter_image_picker_file_paths" />
+74-->[:image_picker] /Users/QuocHuy/Downloads/demo_trangchu 2/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+75        </provider>
+76
+77        <activity
+77-->[com.google.firebase:firebase-auth:19.2.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/321f7083842a97d76ab06d8e5183ba10/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+78            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+78-->[com.google.firebase:firebase-auth:19.2.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/321f7083842a97d76ab06d8e5183ba10/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+79            android:excludeFromRecents="true"
+79-->[com.google.firebase:firebase-auth:19.2.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/321f7083842a97d76ab06d8e5183ba10/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+80            android:exported="true"
+80-->[com.google.firebase:firebase-auth:19.2.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/321f7083842a97d76ab06d8e5183ba10/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+81            android:launchMode="singleTask"
+81-->[com.google.firebase:firebase-auth:19.2.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/321f7083842a97d76ab06d8e5183ba10/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+82            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+82-->[com.google.firebase:firebase-auth:19.2.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/321f7083842a97d76ab06d8e5183ba10/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+83            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+83-->[com.google.firebase:firebase-auth:19.2.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/321f7083842a97d76ab06d8e5183ba10/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+84
+85        <provider
+85-->[com.google.firebase:firebase-common:19.3.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/623dddb3d3d28a5f2fff1cd79c846763/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+86            android:name="com.google.firebase.provider.FirebaseInitProvider"
+86-->[com.google.firebase:firebase-common:19.3.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/623dddb3d3d28a5f2fff1cd79c846763/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+87            android:authorities="com.example.demo_trangchu.firebaseinitprovider"
+87-->[com.google.firebase:firebase-common:19.3.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/623dddb3d3d28a5f2fff1cd79c846763/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+88            android:exported="false"
+88-->[com.google.firebase:firebase-common:19.3.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/623dddb3d3d28a5f2fff1cd79c846763/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+89            android:initOrder="100" />
+89-->[com.google.firebase:firebase-common:19.3.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/623dddb3d3d28a5f2fff1cd79c846763/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+90
+91        <activity
+91-->[com.google.android.gms:play-services-base:17.1.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/4a48003729f5ece5105ccfaef60c8d68/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+92            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+92-->[com.google.android.gms:play-services-base:17.1.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/4a48003729f5ece5105ccfaef60c8d68/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+93            android:exported="false"
+93-->[com.google.android.gms:play-services-base:17.1.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/4a48003729f5ece5105ccfaef60c8d68/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+94            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+94-->[com.google.android.gms:play-services-base:17.1.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/4a48003729f5ece5105ccfaef60c8d68/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+95
+96        <meta-data
+96-->[com.google.android.gms:play-services-basement:17.0.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/73840a5a6daa9786941209cf3986050c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+97            android:name="com.google.android.gms.version"
+97-->[com.google.android.gms:play-services-basement:17.0.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/73840a5a6daa9786941209cf3986050c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+98            android:value="@integer/google_play_services_version" />
+98-->[com.google.android.gms:play-services-basement:17.0.0] /Users/QuocHuy/.gradle/caches/transforms-2/files-2.1/73840a5a6daa9786941209cf3986050c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+99    </application>
+100
+101</manifest>

@@ -1,0 +1,49 @@
+{
+    "project_info": {
+        "project_number": "345350355232",
+        "firebase_url": "https://dataflutter-def6b.firebaseio.com",
+        "project_id": "dataflutter-def6b",
+        "storage_bucket": "dataflutter-def6b.appspot.com"
+    },
+    "client": [{
+        "client_info": {
+            "mobilesdk_app_id": "1:345350355232:android:ec80e6b113d81f6d813f45",
+            "android_client_info": {
+                "package_name": "com.example.demo_trangchu"
+            }
+        },
+        "oauth_client": [{
+                "client_id": "345350355232-fna8ffh4ebqgi1fvcg8fufjil0r1m0ei.apps.googleusercontent.com",
+                "client_type": 1,
+                "android_info": {
+                    "package_name": "com.example.demo_trangchu",
+                    "certificate_hash": "3af27e4dd77b85c195b24d55eb472be40c0f8f0c"
+                }
+            },
+            {
+                "client_id": "345350355232-n4kmn57lppderkfe6k6rptn69n3u62sc.apps.googleusercontent.com",
+                "client_type": 3
+            }
+        ],
+        "api_key": [{
+            "current_key": "AIzaSyAb874289XLDd0pctJL2AD9htXpXikNhag"
+        }],
+        "services": {
+            "appinvite_service": {
+                "other_platform_oauth_client": [{
+                        "client_id": "345350355232-n4kmn57lppderkfe6k6rptn69n3u62sc.apps.googleusercontent.com",
+                        "client_type": 3
+                    },
+                    {
+                        "client_id": "345350355232-miplii4khaib18jphvnferdph4qp1plr.apps.googleusercontent.com",
+                        "client_type": 2,
+                        "ios_info": {
+                            "bundle_id": "com.example.demoTrangchu"
+                        }
+                    }
+                ]
+            }
+        }
+    }],
+    "configuration_version": "1"
+}
